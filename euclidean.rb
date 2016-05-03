@@ -15,14 +15,10 @@ class EuclideanDistance
   end
 end
 
-
 # limerick  = [52.661418, -8.550537]
 # dublin    = [53.318387, -6.368181]
 # cork      = [51.901063, -8.472533]
 # galway    = [53.275008, -9.049125]
-# puts EuclideanDistance.new(limerick, dublin).calculate
-# puts EuclideanDistance.new(limerick, cork).calculate
-# puts EuclideanDistance.new(limerick, galway).calculate
-# 2.279097623555649
-# 0.7643457006100024
-# 0.7906217059023881
+# puts EuclideanDistance.new(limerick, dublin).calculate # 2.279097623555649
+# puts EuclideanDistance.new(limerick, cork).calculate # 0.7643457006100024
+# puts EuclideanDistance.new(limerick, galway).calculate # 0.7906217059023881
